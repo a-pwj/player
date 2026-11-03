@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 启动主题只用来消除白屏：系统闪屏背景与状态栏都取深色 -->
+    <style name="Theme.ViVi.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/vivi_surface</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.ViVi</item>
+    </style>
+
+    <style name="Theme.ViVi" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/vivi_surface</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>

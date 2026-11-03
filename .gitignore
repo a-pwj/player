@@ -1,0 +1,19 @@
+*.iml
+.gradle/
+local.properties
+.idea/
+.DS_Store
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.keystore
+keystore/
+keystore.properties
+
+# 本地调试与验证产物，不入库
+tools/
+device-shots/
+*.log
+.kotlin/

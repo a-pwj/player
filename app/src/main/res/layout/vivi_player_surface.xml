@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  播放画面必须用 texture_view：默认的 SurfaceView 由系统单独合成一层，
+  会盖在窗口内容之上，导致 Compose 画的控件、字幕、进度预览全部看不见
+  （真机上就是这么踩到的）。TextureView 走窗口内合成，叠加层才能正常显示。
+-->
+<androidx.media3.ui.PlayerView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/vivi_player_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    app:resize_mode="fit"
+    app:surface_type="texture_view"
+    app:use_controller="false" />

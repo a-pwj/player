@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ViVi</string>
+    <string name="notification_channel_playback">播放控制</string>
+    <string name="notification_channel_scan">媒体库扫描</string>
+    <string name="service_desc">后台播放与锁屏控制</string>
+</resources>
